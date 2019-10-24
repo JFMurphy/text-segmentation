@@ -2,10 +2,10 @@
 #include "Scanner.hpp"
 #include "LineSegmentation.hpp"
 #include "WordSegmentation.hpp"
-#include <filesystem>
+#include <experimental/filesystem>
 #include <string>
 
-namespace fs = std::filesystem;
+namespace fs = std::experimental::filesystem::v1;
 
 int main(int argc, char *argv[]) {
 
